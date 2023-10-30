@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.33214.273
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{8A1B7D84-F875-404B-9A2E-174FC84F6B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E025CD95-EC9A-4A04-BDBE-E7CDD34BDAAA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E1C13F9C-DF24-48BB-AD37-BA1B2B662C34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7DE7DF5C-FC70-401B-8B7A-718B74134292}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C5166D14-14E2-4D7B-ACB6-F834B68783D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{30F01D86-1034-4505-B7F8-2AC206910337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1A1663A0-DDB0-42E6-83DF-9F055FEE8C39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Common", "Common\Cdw.Azure.Function.Invoice.DataSync.Common\Cdw.Azure.Function.Invoice.DataSync.Common.csproj", "{84560865-C811-4D39-BBD8-A9344788680F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Domain", "Domain\Cdw.Azure.Function.Invoice.DataSync.Domain\Cdw.Azure.Function.Invoice.DataSync.Domain.csproj", "{8A3C58FD-0316-4344-B0E6-9CF5FB0CB3E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync", "Functions\Cdw.Azure.Function.Invoice.DataSync\Cdw.Azure.Function.Invoice.DataSync.csproj", "{A191D352-4B25-4341-A2EC-6E3BE713C364}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Facades", "Infrastructure\Cdw.Azure.Function.Invoice.DataSync.Facades\Cdw.Azure.Function.Invoice.DataSync.Facades.csproj", "{B1A86074-52F2-4333-8F7F-303892950088}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Services", "Services\Cdw.Azure.Function.Invoice.DataSync.Services\Cdw.Azure.Function.Invoice.DataSync.Services.csproj", "{B0A928BB-9FA5-4427-B47D-F5A81AA13223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Common.UnitTests", "Tests\Cdw.Azure.Function.Invoice.DataSync.Common.UnitTests\Cdw.Azure.Function.Invoice.DataSync.Common.UnitTests.csproj", "{207E112D-265E-46B3-86FF-BE87DFF7EEB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Facades.UnitTests", "Tests\Cdw.Azure.Function.Invoice.DataSync.Facades.UnitTests\Cdw.Azure.Function.Invoice.DataSync.Facades.UnitTests.csproj", "{8A921783-42FB-4176-8F88-43AFFAF8D397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.Services.UnitTests", "Tests\Cdw.Azure.Function.Invoice.DataSync.Services.UnitTests\Cdw.Azure.Function.Invoice.DataSync.Services.UnitTests.csproj", "{EFA53416-3B38-445F-961F-888EB54BF5AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdw.Azure.Function.Invoice.DataSync.UnitTests", "Tests\Cdw.Azure.Function.Invoice.DataSync.UnitTests\Cdw.Azure.Function.Invoice.DataSync.UnitTests.csproj", "{EAE2E7E6-CDBE-41DC-B09B-CAF07C6DD29B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84560865-C811-4D39-BBD8-A9344788680F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84560865-C811-4D39-BBD8-A9344788680F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84560865-C811-4D39-BBD8-A9344788680F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84560865-C811-4D39-BBD8-A9344788680F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3C58FD-0316-4344-B0E6-9CF5FB0CB3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3C58FD-0316-4344-B0E6-9CF5FB0CB3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3C58FD-0316-4344-B0E6-9CF5FB0CB3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3C58FD-0316-4344-B0E6-9CF5FB0CB3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A191D352-4B25-4341-A2EC-6E3BE713C364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A191D352-4B25-4341-A2EC-6E3BE713C364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A191D352-4B25-4341-A2EC-6E3BE713C364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A191D352-4B25-4341-A2EC-6E3BE713C364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A86074-52F2-4333-8F7F-303892950088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A86074-52F2-4333-8F7F-303892950088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A86074-52F2-4333-8F7F-303892950088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A86074-52F2-4333-8F7F-303892950088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A928BB-9FA5-4427-B47D-F5A81AA13223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A928BB-9FA5-4427-B47D-F5A81AA13223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A928BB-9FA5-4427-B47D-F5A81AA13223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A928BB-9FA5-4427-B47D-F5A81AA13223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207E112D-265E-46B3-86FF-BE87DFF7EEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207E112D-265E-46B3-86FF-BE87DFF7EEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207E112D-265E-46B3-86FF-BE87DFF7EEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207E112D-265E-46B3-86FF-BE87DFF7EEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A921783-42FB-4176-8F88-43AFFAF8D397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A921783-42FB-4176-8F88-43AFFAF8D397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A921783-42FB-4176-8F88-43AFFAF8D397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A921783-42FB-4176-8F88-43AFFAF8D397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA53416-3B38-445F-961F-888EB54BF5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA53416-3B38-445F-961F-888EB54BF5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA53416-3B38-445F-961F-888EB54BF5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA53416-3B38-445F-961F-888EB54BF5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE2E7E6-CDBE-41DC-B09B-CAF07C6DD29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE2E7E6-CDBE-41DC-B09B-CAF07C6DD29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE2E7E6-CDBE-41DC-B09B-CAF07C6DD29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE2E7E6-CDBE-41DC-B09B-CAF07C6DD29B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84560865-C811-4D39-BBD8-A9344788680F} = {E1C13F9C-DF24-48BB-AD37-BA1B2B662C34}
+		{8A3C58FD-0316-4344-B0E6-9CF5FB0CB3E2} = {1A1663A0-DDB0-42E6-83DF-9F055FEE8C39}
+		{A191D352-4B25-4341-A2EC-6E3BE713C364} = {8A1B7D84-F875-404B-9A2E-174FC84F6B00}
+		{B1A86074-52F2-4333-8F7F-303892950088} = {C5166D14-14E2-4D7B-ACB6-F834B68783D8}
+		{B0A928BB-9FA5-4427-B47D-F5A81AA13223} = {30F01D86-1034-4505-B7F8-2AC206910337}
+		{207E112D-265E-46B3-86FF-BE87DFF7EEB8} = {7DE7DF5C-FC70-401B-8B7A-718B74134292}
+		{8A921783-42FB-4176-8F88-43AFFAF8D397} = {7DE7DF5C-FC70-401B-8B7A-718B74134292}
+		{EFA53416-3B38-445F-961F-888EB54BF5AC} = {7DE7DF5C-FC70-401B-8B7A-718B74134292}
+		{EAE2E7E6-CDBE-41DC-B09B-CAF07C6DD29B} = {7DE7DF5C-FC70-401B-8B7A-718B74134292}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE82E4FC-E5B9-4C02-80CB-0A8E2C2A41F0}
+	EndGlobalSection
+EndGlobal

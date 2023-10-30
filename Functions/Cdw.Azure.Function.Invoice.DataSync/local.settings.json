@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnection": "Endpoint=sb://sb-soe-invoice-poc.servicebus.windows.net/;SharedAccessKeyName=sap-soe-invoice-raw-poc;SharedAccessKey=GqtMjKrkhwr+HyS2HIPEH/ufM58ZUbBK8+ASbIm5n8U="
+  }
+}
+

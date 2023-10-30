@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Cdw.Azure.Function.CustomerPO": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7248",
+      "launchBrowser": true,
+      "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development",
+      "AZURE_FUNCTIONS_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

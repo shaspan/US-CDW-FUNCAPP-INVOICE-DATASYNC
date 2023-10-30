@@ -1,0 +1,63 @@
+mode: ContinuousDelivery
+
+continuous-delivery-fallback-tag: ci
+update-build-number: true
+
+branches:
+  main:
+    mode: ContinuousDeployment
+    tag: alpha
+    increment: Minor
+    prevent-increment-of-merged-branch-version: false
+    track-merge-target: true
+    regex: ^main$
+    source-branches: []
+    tracks-release-branches: true
+    is-release-branch: false
+    is-mainline: false
+    pre-release-weight: 0
+  stable:
+    mode: ContinuousDelivery
+    tag: ''
+    increment: Patch
+    prevent-increment-of-merged-branch-version: true
+    track-merge-target: false
+    regex: ^stable[/-]
+    source-branches:
+    - main
+    - stable
+    tracks-release-branches: false
+    is-release-branch: false
+    is-mainline: true
+    pre-release-weight: 45000
+  feature:
+    mode: ContinuousDelivery
+    tag: ft-{BranchName}
+    increment: Inherit
+    prevent-increment-of-merged-branch-version: false
+    track-merge-target: false
+    regex: ^features?[/-]
+    source-branches:
+    - main
+    - stable
+    - feature
+    tracks-release-branches: false
+    is-release-branch: false
+    is-mainline: false
+    pre-release-weight: 30000
+  pull-request:
+    mode: ContinuousDelivery
+    tag: pr
+    increment: Inherit
+    prevent-increment-of-merged-branch-version: false
+    tag-number-pattern: '[/-](?<number>\d+)'
+    track-merge-target: false
+    regex: ^(pull|pull\-requests|pr)[/-]
+    source-branches:
+    - main
+    - stable
+    - feature
+    tracks-release-branches: false
+    is-release-branch: false
+    is-mainline: false
+    pre-release-weight: 30000
